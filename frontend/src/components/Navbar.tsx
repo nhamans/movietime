@@ -47,9 +47,11 @@ export const Navbar: React.FC<NavbarProps> = ({
               }}
               className="flex items-center gap-2.5 text-left group"
             >
-              <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center shadow-md shadow-red-600/30">
-                <Film className="w-5 h-5 text-white" />
-              </div>
+              <img
+                src="/logo.svg"
+                alt="MovieTime Logo"
+                className="w-9 h-9 rounded-lg shadow-md shadow-red-600/30 group-hover:scale-105 transition-transform"
+              />
               <div>
                 <span className="text-lg font-extrabold tracking-tight text-white">
                   MOVIE<span className="text-red-500">TIME</span>

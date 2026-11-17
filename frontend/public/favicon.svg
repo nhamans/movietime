@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+    <linearGradient id="favRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2e43" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#favBg)" stroke="#e50914" stroke-width="2.5" />
+  <!-- Outer reel circle -->
+  <circle cx="32" cy="32" r="21" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+  <!-- Film perforations (4 dots) -->
+  <circle cx="32" cy="14" r="2" fill="#ef4444" />
+  <circle cx="32" cy="50" r="2" fill="#ef4444" />
+  <circle cx="14" cy="32" r="2" fill="#ef4444" />
+  <circle cx="50" cy="32" r="2" fill="#ef4444" />
+  <!-- Play triangle (Movie) -->
+  <path d="M 27 22 C 27 20.8 28.3 20.1 29.3 20.7 L 42.5 29.7 C 43.4 30.3 43.4 31.7 42.5 32.3 L 29.3 41.3 C 28.3 41.9 27 41.2 27 40 Z" fill="url(#favRed)" />
+  <!-- Center Jewel -->
+  <circle cx="32" cy="31" r="2" fill="#ffffff" />
+</svg>

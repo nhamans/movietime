@@ -1,4 +1,17 @@
-# MovieTime — Self-Hosted SMB Local Media Streaming Web App
+<div align="center">
+  <img src="frontend/public/logo.svg" alt="MovieTime Logo" width="128" height="128" />
+  <h1>MovieTime</h1>
+  <p><strong>Self-Hosted SMB Local Media Streaming Web App</strong></p>
+  <p>
+    <a href="#key-features--architecture">Features</a> •
+    <a href="#quick-start-open-source--2-commands">Quick Start</a> •
+    <a href="#system-requirements">Requirements</a> •
+    <a href="#installing-ffmpeg--connecting-smb-shares">SMB Guide</a> •
+    <a href="LICENSE">License (MIT)</a>
+  </p>
+</div>
+
+---
 
 A lightweight, high-performance, self-hosted local media streaming web application designed to index, organize, and stream video files directly from a network SMB share (e.g., `\\10.10.10.10\Videos` or `\\192.168.1.10\Videos`) served via a router-attached HDD or NAS over a LAN or VPN connection.
 
