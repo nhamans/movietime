@@ -1,0 +1,25 @@
+# Python virtual environments & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node dependencies & build output
+node_modules/
+frontend/dist/
+
+# Local SMB credentials & runtime demo media cache
+backend/bootstrap_config.json
+backend/demo_media/
+.media_cache/
+*.db
+*.db-shm
+*.db-wal
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

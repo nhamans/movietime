@@ -1,0 +1,11 @@
+{
+  "name": "movietime",
+  "version": "1.0.0",
+  "description": "Self-Hosted SMB Local Media Streaming Web App (FastAPI + SQLite + FFmpeg + React)",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node run.js setup",
+    "start": "node run.js start",
+    "build": "node run.js build"
+  }
+}
